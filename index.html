@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Topline Melody & Chord Model Comparison</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Audio Comparison</h1>
+        </header>
+        
+        <div class="visible" id="area2">
+            <style>
+                th, td {
+                    padding: 10px;
+                }
+                td.audio {
+                    text-align: center;
+                }
+                .audiotable {
+                    border-collapse: collapse;
+                }
+                .audiotable td {
+                    border: 1px solid #ddd;
+                }
+            </style>
+
+            <table class="audiotable" border="0" width="100%">
+                <tr class="highlight">
+                    <td class="secondary"></td>
+                    <td class="audio"><h3>Full Mix</h3></td>
+                    <td class="audio"><h3>sheetsage melody</h3></td>
+                    <td class="audio"><h3>baseline melody</h3></td>
+                    <td class="audio"><h3>sheetsage chord</h3></td>
+                    <td class="audio"><h3>baseline chord</h3></td>
+                </tr>
+
+                <!-- 2Pac California Love -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>california_love</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/2pac_california_love_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/2pac_california_love_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/2pac_california_love_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/2pac_california_love_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/2pac_california_love_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- 2Pac Dear Mama -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>Dear Mama</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/2pac_dear_mama_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/2pac_dear_mama_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/2pac_dear_mama_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/2pac_dear_mama_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/2pac_dear_mama_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- Alicia Keys -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>if_i_aint_got_you</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/alicia_keys_if_i_aint_got_you_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/alicia_keys_if_i_aint_got_you_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/alicia_keys_if_i_aint_got_you_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/alicia_keys_if_i_aint_got_you_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/alicia_keys_if_i_aint_got_you_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- Ari Lennox -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>bmo</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/ari_lennox_bmo_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/ari_lennox_bmo_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/ari_lennox_bmo_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/ari_lennox_bmo_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/ari_lennox_bmo_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- ASAP Rocky -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>praise_the_lord</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/asap_rocky_praise_the_lord_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/asap_rocky_praise_the_lord_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/asap_rocky_praise_the_lord_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/asap_rocky_praise_the_lord_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/asap_rocky_praise_the_lord_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- Cardi B -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>bodak_yellow</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/cardi_b_bodak_yellow_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/cardi_b_bodak_yellow_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/cardi_b_bodak_yellow_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/cardi_b_bodak_yellow_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/cardi_b_bodak_yellow_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- DaBaby -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>suge</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/dababy_suge_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/dababy_suge_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/dababy_suge_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/dababy_suge_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/dababy_suge_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- Justin Bieber -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>love_yourself</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/justin_bieber_love_yourself_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/justin_bieber_love_yourself_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/justin_bieber_love_yourself_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/justin_bieber_love_yourself_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/justin_bieber_love_yourself_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- Lady Gaga -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>poker_face</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/lady_gaga_poker_face_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/lady_gaga_poker_face_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/lady_gaga_poker_face_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/lady_gaga_poker_face_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/lady_gaga_poker_face_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- Lauryn Hill -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>doo_wop</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/lauryn_hill_doo_wop_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/lauryn_hill_doo_wop_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/lauryn_hill_doo_wop_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/lauryn_hill_doo_wop_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/lauryn_hill_doo_wop_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- Mac Miller -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>self_care</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/mac_miller_self_care_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/mac_miller_self_care_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/mac_miller_self_care_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/mac_miller_self_care_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/mac_miller_self_care_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- Pharrell Williams -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>happy</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/pharrell_williams_happy_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/pharrell_williams_happy_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/pharrell_williams_happy_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/pharrell_williams_happy_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/pharrell_williams_happy_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- Shawn Mendes -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>treat_you_better</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/shawn_mendes_treat_you_better_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/shawn_mendes_treat_you_better_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/shawn_mendes_treat_you_better_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/shawn_mendes_treat_you_better_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/shawn_mendes_treat_you_better_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- XXXTentacion -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>sad</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/xxxtentacion_sad_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/xxxtentacion_sad_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/xxxtentacion_sad_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/xxxtentacion_sad_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/xxxtentacion_sad_hook_full_mix_audio.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <!-- Yellow -->
+                <tr class="even">
+                    <td class="secondary">
+                        <h3>yellow</h3>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./input_audio/yellow.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_melody/yellow.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_melody/yellow.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./sheetsage_chord/yellow.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                    <td class="audio">
+                        <audio controls preload="none">
+                            <source src="./madmom_chord/yellow.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</body>
+</html>
